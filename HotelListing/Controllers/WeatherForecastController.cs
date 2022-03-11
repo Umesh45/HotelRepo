@@ -11,6 +11,7 @@ namespace HotelListing.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        // added for check
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\HotelListing\\HotelListing\\HotelListing.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\Umesh45\\HotelRepo\\HotelListing\\HotelListing.csproj",
       "projectName": "HotelListing",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\HotelListing\\HotelListing\\HotelListing.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\Umesh45\\HotelRepo\\HotelListing\\HotelListing.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\HotelListing\\HotelListing\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\Umesh45\\HotelRepo\\HotelListing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
