@@ -1,4 +1,6 @@
-﻿using HotelListing.IRepository;
+﻿using HotelListing.Data;
+using HotelListing.IRepository;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,16 @@ namespace HotelListing.Repository
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
+        private readonly DatabaseContext _context;
+        private readonly DbSet<T> _dbSet;
+
+        public GenericRepository(DatabaseContext context)
+        {
+            _context = context;
+            _dbSet = _context.Set<T>();
+        }
+
+
         public Task Delete(int id)
         {
             throw new NotImplementedException();
