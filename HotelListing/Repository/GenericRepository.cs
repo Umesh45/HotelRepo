@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelListing.Repository
 {
-    public class GenericRepository<T> : IGenericRepositorycs<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         public Task Delete(int id)
         {
